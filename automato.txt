@@ -1,0 +1,13 @@
+A_A(((A)))
+A_F((F))
+A_J((J))
+A_H((H))
+A_G((G))
+A_INICIO((S)) --> A_A
+A_A -- AAAA --> A_F
+A_A -- AAAA --> A_G
+A_A -- AAAA --> A_A
+A_A -- AAAA --> A_J
+A_G -- AAAA --> A_A
+A_G -- AAAA --> A_H
+A_J -- AAAA --> A_H
